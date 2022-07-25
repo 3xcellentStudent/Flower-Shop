@@ -1,0 +1,6 @@
+@media screen and (max-width:1024px) {
+   .small_btn_link {
+      padding: 10px 36px;
+      word-break: break-all;
+   }
+}

@@ -1,0 +1,128 @@
+.slick-list {
+   overflow: hidden;
+}
+.slick-track{
+   display: flex;
+}
+.slick-arrow {
+   position: relative;
+   width: 40px;
+   height: 40px;
+   display: block;
+   z-index: 2;
+   font-size: 0;
+   border: none;
+   padding: 0;
+
+   transform: scale(1.001);
+   -o-transform: scale(1.001);
+   -ms-transform: scale(1.001);
+   -moz-transform: scale(1.001);
+   -webkit-transform: scale(1.001);
+
+   transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -webkit-transition: all 0.2s linear;
+
+   cursor: pointer;
+}
+.slick-arrow.slick-prev{
+   left: -40px;
+   position: absolute;
+   background: transparent;
+
+   width: 45px;
+   height: 35px;
+   display: block;
+
+   transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+
+}
+.slick-arrow.slick-prev::before {
+   content: '';
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   left: 20px;
+   top: 0;
+   display: block;
+   clip-path: polygon(30% 0%, 80% 50%, 30% 100%, 10% 100%, 60% 50%, 10% 0%);
+}
+.slick-arrow.slick-next{
+   right: -45px;
+   position: absolute;
+   background: transparent;
+
+   width: 45px;
+   height: 35px;
+   display: block;
+}
+.slick-arrow.slick-next::before {
+   content: '';
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   right: 0;
+   top: 0;
+   display: block;
+   clip-path: polygon(30% 0%, 80% 50%, 30% 100%, 10% 100%, 60% 50%, 10% 0%);
+}
+.slick-arrow:hover.slick-prev {
+   transform: scale(1.15) rotate(180deg);
+   -o-transform: scale(1.15) rotate(180deg);
+   -ms-transform: scale(1.15) rotate(180deg);
+   -moz-transform: scale(1.15) rotate(180deg);
+   -webkit-transform: scale(1.15) rotate(180deg);
+}
+.slick-arrow:hover.slick-next {
+   transform: scale(1.15);
+   -o-transform: scale(1.15);
+   -ms-transform: scale(1.15);
+   -moz-transform: scale(1.15);
+   -webkit-transform: scale(1.15);
+}
+.slick-arrow.slick-prev::before, 
+.slick-arrow.slick-next::before {
+   transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -webkit-transition: all 0.2s linear;
+   background-color: #94738D;
+}
+
+.slick-dots{
+   position: absolute;
+   bottom: 40px;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+.slick-dots li{
+   margin: 0 20px;
+}
+.slick-dots li.slick-active button{
+   background-color: #492539;
+   border: none;
+}
+.slick-dots li button{
+   margin: 0;
+   padding: 6px;
+   font-size: 0;
+   border: none;
+   border-radius: 50%;
+   background-color: #94738D;
+   cursor: pointer;
+}
+
+.intro_slider,
+.collection_slider {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}

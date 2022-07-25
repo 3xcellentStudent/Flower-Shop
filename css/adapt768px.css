@@ -1,0 +1,74 @@
+@media screen and (max-width:768px) {
+   .footer {
+      width: 95%;
+   }
+
+   .slick-arrow.slick-prev{
+      left: -30px;
+      position: absolute;
+      background: transparent;
+   
+      width: 45px;
+      height: 35px;
+      display: block;
+   
+      transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+   
+   }
+   .slick-arrow.slick-next{
+      right: -35px;
+      position: absolute;
+      background: transparent;
+   
+      width: 45px;
+      height: 35px;
+      display: block;
+   }
+   .intro_left_subh2 p {
+      margin: 0;
+   }
+
+   .main_stat .disp_flex_spbeetw {
+      align-items: flex-start;
+   }
+   .stat_flex {
+      flex-flow: column;
+   }
+   .stat_flex h2 {
+      width: 100%;
+      order: 2;
+      margin-top: calc(20px + (40 - 20) * ((100vw - 320px) / (768 - 320)));
+      text-align: center;
+   }
+   .main_stat {
+      width: 80%;
+      order: 1;
+   }
+
+   .assort_item_flex {
+      width: 100%;
+   }
+   .assort_items_wrap {
+      width: 100%;
+      display: flex;
+      margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px) / (768 - 320)));
+      padding-bottom: 10px;
+      border-bottom: 1px solid #492539;
+   }
+   .assortment_flex.disp_flex_spbeetw {
+      flex-flow: column;
+   }
+   .assort_btn {
+      margin: 0 0 50px 0;
+      min-width: 164px;
+   }
+
+   .portfolio_group {
+      grid-template: repeat(4, 25%) / repeat(2, 50%);
+      height: calc(100px + (3000 - 100) * ((100vw - 320px) / (1600 - 320)));
+   }
+}

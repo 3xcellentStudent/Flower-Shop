@@ -1,0 +1,30 @@
+@media screen and (max-width:480px) {
+   .item_info {
+      margin-top: calc(180px + (200 - 180) * ((100vw - 320px) / (480 - 320)));
+   }
+   .main_content {
+      width: 90%;
+      margin: 0 auto;
+      position: relative;
+   }
+   .intro_slider,
+   .collection_slider {
+      width: 90%;
+      margin: 0 auto;
+   }
+   .slick-arrow.slick-prev{
+      left: -20px;
+   }
+   .slick-arrow.slick-next{
+      right: -30px;
+   }
+   .collection_slider {
+      width: 100%;
+   }
+   .collection_slider .slick-arrow.slick-prev {
+      left: 15px;
+   }
+   .collection_slider .slick-arrow.slick-next {
+      right: 5px;
+   }
+}

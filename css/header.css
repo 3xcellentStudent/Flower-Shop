@@ -1,0 +1,8 @@
+.header {
+   width: 100%;
+   height: calc(70px + (135 - 70) * ((100vw - 320px) / (1600 - 320)));
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 calc(20px + (100 - 20) * ((100vw - 320px) / (1600 - 320)));
+}

@@ -1,0 +1,12 @@
+.portfolio {
+   margin-bottom: calc(50px + (150 - 50) * ((100vw - 320px) / (1600 - 320)));
+}
+.portfolio_group {
+   display: grid;
+   grid-template: repeat(2, 50%) / repeat(4, 25%);
+   height: calc(100px + (500 - 100) * ((100vw - 320px) / (1600 - 320)));
+   width: 100%;
+}
+.portfolio_item {
+   margin: calc(3px + (10 - 3) * ((100vw - 320px) / (1600 - 320)));
+}

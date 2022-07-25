@@ -1,0 +1,44 @@
+.statistic .sublogo a h2 {
+   font-size: calc(28px + (40 - 28) * ((100vw - 320px) / (1600 - 320)));
+}
+.stat_flex {
+   margin-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+   cursor: default;
+}
+.stat_flex h2 {
+   width: 40%;
+   line-height: 2;
+   font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1600 - 320)));
+   letter-spacing: 0.2em;
+   text-transform: uppercase;
+}
+.main_stat {
+   width: 50%;
+}
+.info_stat {
+   flex-flow: column;
+}
+.number {
+   font-size: calc(30px + (46 - 30) * ((100vw - 320px) / (1600 - 320)));
+}
+.info_stat p {
+   font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1600 - 320)));
+   letter-spacing: 0.05em;
+   margin: 20px 0 0 0;
+}
+.info_stat a {
+   color: #492539;
+   padding-top: 30px;
+   font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1600 - 320)));
+   font-weight: 700;
+   border-bottom: 2px solid transparent;
+
+   transition: 0.2s ease-in-out;
+   -o-transition: 0.2s ease-in-out;
+   -moz-transition: 0.2s ease-in-out;
+   -webkit-transition: 0.2s ease-in-out;
+}
+.info_stat a:hover {
+   color: #94738D;
+   border-bottom: 2px solid #94738D;
+}

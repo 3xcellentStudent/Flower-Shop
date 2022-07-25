@@ -1,0 +1,67 @@
+.footer {
+   width: 80%;
+   margin: 0 auto;
+   position: relative;
+   padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+}
+.footer_right {
+   width: 60%;
+   color: #5D2D48;
+}
+.footer_list li {
+   margin: 15px 0;
+}
+.footer_list li a {
+   color: #5D2D48;
+   font-size: 18px;
+   letter-spacing: 0.05em;
+
+   transition: 0.1s;
+   -o-transition: 0.1s;
+   -moz-transition: 0.1s;
+   -webkit-transition: 0.1s;
+}
+.footer_list li a:hover {
+   color: #fff;
+}
+.footer_contact h5 {
+   color: #5D2D48;
+   font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1600 - 320)));
+   text-align: center;
+}
+.contact_info {
+   flex-flow: column;
+   align-items: flex-start;
+   margin-top: 20px;
+}
+.address,
+.time {
+   font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+}
+.tel,
+.mail {
+   color: #5D2D48;
+   font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1600 - 320)));
+
+   transition: 0.1s;
+   -o-transition: 0.1s;
+   -moz-transition: 0.1s;
+   -webkit-transition: 0.1s;
+}
+.tel:hover,
+.mail:hover {
+   color: #fff;
+}
+.span_contact {
+   margin-left: 10px;
+}
+.address,
+.time,
+.tel,
+.mail {
+   margin-top: 10px;
+}
+
+.footer_contact.contact2 {
+   display: none;
+}

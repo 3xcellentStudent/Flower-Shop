@@ -1,0 +1,31 @@
+.consultation {
+   margin-bottom: calc(40px + (100 - 40) * ((100vw - 320px) / (1600 - 320)));
+   padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320))) 0;
+   position: relative;
+}
+.connect_consultant {
+   flex-flow: column;
+}
+.connect_consultant h3,
+.discount_system h3 {
+   cursor: default;
+   margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px) / (1600 -320)));
+}
+.email {
+   border: none;
+   padding: 0;
+   width: calc(200px + (300 - 200) * ((100vw - 320px) / (1600 - 320)));
+   height: 40px;
+   outline: none;
+   background: transparent;
+   font-size: 18px;
+}
+.connect_consultant .disp_flex_spbeetw {
+   border-bottom: 2px solid #5D2D48;
+}
+.discount_system {
+   flex-flow: column;
+}
+.discount_system .small_button {
+   margin: 0;
+}
